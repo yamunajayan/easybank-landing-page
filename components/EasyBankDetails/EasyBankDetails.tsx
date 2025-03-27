@@ -20,7 +20,7 @@ const EasyBankDetails = () => {
 
   return (
     <article className="bg-[#F4F5F7]">
-      <div className="px-6 py-16 max-w-[1110px] w-full sm:px-0 sm:mx-auto ">
+      <div className="px-6 py-16 max-w-[1110px] w-full xl:px-0 sm:mx-auto ">
         <section className=" text-center w-[327px] sm:pb-[72px] sm:w-[635px] sm:text-left">
           <h2 className="text-[#2D314D] text-[32px] leading-9 font-light sm:text-[40px] sm:leading-[64px]">
             Why choose Easybank?
