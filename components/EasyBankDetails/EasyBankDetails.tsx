@@ -40,7 +40,7 @@ const EasyBankDetails = () => {
               <h2 className="text-lg leading-[28px] font-light">
                 {feature.title}
               </h2>
-              <p className="text-gray-600 text-center text-[15px] leading-[25px] font-normal sm:text-start">
+              <p className="text-[#9597A5] text-center text-[15px] leading-[25px] font-normal sm:text-start">
                 {feature.description}
               </p>
             </li>
