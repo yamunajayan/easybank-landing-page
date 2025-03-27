@@ -2,8 +2,8 @@ import Button from "../Button";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-[640px]">
-      <article className="max-w-5xl w-full mx-auto sm:flex relative">
+    <div className="relative flex flex-col items-center justify-center h-[640px] pt-[124px] sm:pt-0">
+      <article className="max-w-[1110px] w-full mx-auto sm:flex relative">
         <section className="relative sm:hidden">
           <img
             src="bg-intro-mobile.svg"
@@ -16,7 +16,7 @@ const Hero = () => {
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-[280px] h-[540px] object-contain"
           />
         </section>
-        <section className="px-6 text-center flex flex-col items-center justify-center sm:w-[480px] sm:items-start sm:text-left ">
+        <section className="px-6 text-center flex flex-col items-center justify-center sm:w-[480px] sm:items-start sm:text-left pb-28 sm:pb-0">
           <h1 className="text-[40px] font-light leading-12 sm:text-[56px] sm:leading-16">
             Next generation digital banking
           </h1>

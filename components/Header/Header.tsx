@@ -2,7 +2,7 @@ import Button from "@/components/Button";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-center h-16 sm:h-20 px-6 max-w-5xl w-full mx-auto">
+    <header className="flex items-center justify-center h-16 sm:h-20 px-6 max-w-[1110px] w-full mx-auto">
       <div className="flex-1 flex justify-start">
         <img src="logo.svg" alt="Easybank" />
       </div>
