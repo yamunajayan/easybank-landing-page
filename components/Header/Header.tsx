@@ -8,12 +8,22 @@ const Header = () => {
       </div>
 
       <nav className="hidden sm:flex flex-1 justify-center text-[#9597A5] font-normal">
-        <ul className="flex gap-6 text-sm">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Careers</li>
+        <ul className="flex gap-6 text-sm hover:cursor-pointer">
+          <li className="h-[80px] flex items-center border-b-4 border-white hover:border-[#30C88F] hover:text-[#2D314D]">
+            Home
+          </li>
+          <li className="h-[80px] flex items-center border-b-4 border-white hover:border-[#30C88F] hover:text-[#2D314D]">
+            About
+          </li>
+          <li className="h-[80px] flex items-center border-b-4 border-white hover:border-[#30C88F] hover:text-[#2D314D]">
+            Contact
+          </li>
+          <li className="h-[80px] flex items-center border-b-4 border-white hover:border-[#30C88F] hover:text-[#2D314D]">
+            Blog
+          </li>
+          <li className="h-[80px] flex items-center border-b-4 border-white hover:border-[#30C88F] hover:text-[#2D314D]">
+            Careers
+          </li>
         </ul>
       </nav>
       <div className="flex-1 justify-end hidden sm:flex">

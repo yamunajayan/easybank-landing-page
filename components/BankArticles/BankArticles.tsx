@@ -36,7 +36,7 @@ const BankArticles = () => {
                 <p className="text-[#9597A5] text-start text-[10px] leading-[16px] font-normal pb-2">
                   {article.author}
                 </p>
-                <h2 className="text-[15px] leading-[20px] font-light text-[#2D314D] pb-2">
+                <h2 className="text-[15px] leading-[20px] font-light text-[#2D314D] pb-2 hover:text-[#30C88F] hover:cursor-pointer">
                   {article.title}
                 </h2>
                 <p className="text-[#9597A5] text-[13px] leading-[18px] font-normal sm:text-start">
