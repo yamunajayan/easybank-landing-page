@@ -21,18 +21,22 @@ const BankArticles = () => {
         <h2 className="text-[#2D314D] text-[32px] leading-9 font-light pb-8 sm:text-[40px] sm:leading-[64px] text-center sm:text-left">
           Latest Articles
         </h2>
-        <ul className="articles flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-0 sm:justify-between">
+        <ul className="articles flex flex-col items-center justify-center gap-6 sm:flex-row sm:justify-between sm:items-start">
           {article.map((article, index) => (
+            // <li
+            //   key={index}
+            //   className="bg-white shadow-md flex flex-col justify-between gap-4 sm:min-h-[405px] sm:w-[255px] sm:items-start sm:gap-8 "
+            // >
             <li
               key={index}
-              className="bg-white shadow-md flex flex-col justify-between gap-4 sm:h-[395px] sm:w-[255px] sm:items-start sm:gap-8 "
+              className="bg-white shadow-md flex flex-col justify-between gap-4 sm:min-h-[420px] sm:w-[255px] sm:items-start sm:gap-8"
             >
               <img
                 src={article.image}
                 alt={article.title}
                 className="rounded-t-md h-[200px] w-full min-h-[200px] object-cover"
               />
-              <div className="px-[30px] pb-6">
+              <div className="px-[30px] pb-6 flex-1 flex flex-col justify-between">
                 <p className="text-[#9597A5] text-start text-[10px] leading-[16px] font-normal pb-2">
                   {article.author}
                 </p>
