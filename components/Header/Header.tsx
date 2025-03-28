@@ -1,8 +1,12 @@
+"use client";
 import Button from "@/components/Button";
+import { useState } from "react";
+import HeaderPopUp from "../HeaderPopUp";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex items-center justify-center h-16 sm:h-20 px-6 max-w-[1110px] w-full mx-auto">
+    <header className="flex items-center justify-center h-16 sm:h-20 px-6 max-w-[1110px] w-full mx-auto relative">
       <div className="flex-1 flex justify-start">
         <img src="logo.svg" alt="Easybank" />
       </div>
@@ -29,9 +33,22 @@ const Header = () => {
       <div className="flex-1 justify-end hidden sm:flex">
         <Button />
       </div>
-      <div className="flex justify-end sm:hidden">
-        <img src="icon-hamburger.svg" alt="Menu" />
+      <div
+        className="flex justify-end sm:hidden"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {/* <img src="icon-hamburger.svg" alt="Menu" /> */}
+        {isOpen ? (
+          <img src="icon-close.svg" alt="Close" />
+        ) : (
+          <img src="icon-hamburger.svg" alt="Menu" />
+        )}
       </div>
+      {isOpen && (
+        <div className="absolute top-0 w-full sm:hidden ">
+          <HeaderPopUp></HeaderPopUp>
+        </div>
+      )}
     </header>
   );
 };
