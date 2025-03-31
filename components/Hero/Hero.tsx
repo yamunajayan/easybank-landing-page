@@ -2,7 +2,7 @@ import Button from "../Button";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center sm:pt-0 sm:h-[656px]">
+    <div className="relative flex flex-col items-center justify-center sm:pt-0 sm:h-[656px] ">
       <article className="max-w-[1110px] w-full mx-auto sm:flex relative">
         <section className="relative sm:hidden overflow-hidden">
           <img

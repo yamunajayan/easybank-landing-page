@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-geist-sans)]">
+    <div className="font-[family-name:var(--font-geist-sans)] overflow-x-hidden">
       <Header></Header>
       <Hero></Hero>
       <EasyBankDetails></EasyBankDetails>
